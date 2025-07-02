@@ -1,0 +1,72 @@
+body {
+    background-color: #e264ab25;
+    font-family: sans-serif, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #460428; /*cor diferente */
+    text-align: center;
+    font-size: 18px ;
+}
+
+p {
+    font-size: 22px;/*fonte maior*/
+    text-align: justify;/*justtificado*/
+    line-height: 1.6;
+}
+#p2 {
+    font-size: 18px;
+    line-height: 1.6;
+}
+ul {
+    list-style-type: square;
+}
+
+ul li {
+    margin-bottom: 33px; /*espaçamento dos itens */
+}
+img {
+    border-radius: 10px; /*borda arredondada */ 
+    width: 200px;
+    height: auto; /*ajusta a largura automaticamente*/
+    display: block; /*ocupa largura disponivel*/
+    margin: 10px auto; /*centralizado*/
+}
+
+
+#pole {
+    border-radius: 15px; /*borda arredondada */ 
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+table {
+    width: 100%; /* ocupa todo espaço da pag*/
+    border-collapse: collapse;/*unir as bordas da tebela */
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #000000; /*cor da borda da tabela */
+}
+
+td {
+    padding: 10px; /*espaço de cada celula */
+    text-align: center; /*texto centralizado*/
+    vertical-align: middle; /*conteudo centralizado*/
+    background-color: #e27ac8; /*cor da tabela */
+}
+
+a {
+    color: #2550c7;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #ff0095;
+    text-decoration: underline;
+}
